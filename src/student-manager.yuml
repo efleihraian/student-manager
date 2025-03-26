@@ -1,0 +1,7 @@
+[Student]-(View Grades),(View Grades)>(Log in),(Log in)<(Display Account Locked Error),(Log in)>(Verify Credentials)
+[Student]-(View University Details),(View University Details)>(Log in)
+[Teacher]-(Add Grades),(Add Grades)>(Log in)
+[Teacher]-(View Students),(View Students)>(Log in)
+[Teacher]-(Add Student),(Add Student)>(Log in),(Add Student)<(Display Already Added Error)
+[Admin]-(Add Subject)
+[Admin]-(Create Account),(Create Account)<(Display Already Created Error)
